@@ -1,5 +1,5 @@
 // ВСТАВЬТЕ СЮДА ВАШ КЛЮЧ
-const GEMINI_API_KEY = "AQ.Ab8RN6KuFpuw2Mz4HO0_8-af__jlceHU3X3NfT41QXxMNLPTMg";
+const GEMINI_API_KEY = "AQ.Ab8RN6KzM2RrI7tff4FDvrJlEmLsjj4W2DQ8yKDmTeTUB5wD3w";
 
 let rulesDatabase = [];
 
