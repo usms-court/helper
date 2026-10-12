@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA RP — Помощник по законам</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="title-wrap">
+        <h1>NOVA RP Assistant</h1>
+        <p class="subtitle">Поиск по статьям кодексов и правилам штата</p>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="search-panel">
+        <textarea id="queryInput" placeholder="Например: что дают за убийство госника или стрельбу в ЗЗ?" rows="3"></textarea>
+        <div class="action-row">
+          <span class="hint">Enter — поиск, Shift+Enter — перенос строки</span>
+          <button id="searchBtn">Найти в базе</button>
+        </div>
+      </div>
+
+      <section class="result-panel">
+        <div class="result-header">
+          <span>Результат поиска</span>
+          <button id="copyBtn" class="secondary-btn">Копировать</button>
+        </div>
+        <div id="resultContent" class="result-body">Введите вопрос выше и нажмите «Найти в базе»...</div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
